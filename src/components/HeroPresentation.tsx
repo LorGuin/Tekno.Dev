@@ -18,8 +18,15 @@ import {
 import { CONTACT_EMAIL, CONTACT_PHONE_DISPLAY, CONTACT_PHONE_TEL, whatsappLink } from '../lib/contact';
 import ShaderBackground from './effects/ShaderBackground';
 
+interface ServiceItem {
+  icon: React.ReactNode;
+  title: string;
+  desc: string;
+  href?: string;
+}
+
 // Listado de servicios destacados
-const services = [
+const services: ServiceItem[] = [
   {
     icon: <Layout className="w-6 h-6 text-cyan-400" />,
     title: "Webs & Web Apps",
