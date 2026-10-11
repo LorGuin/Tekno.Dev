@@ -80,7 +80,7 @@ en el repo con el mismo redirect, e importar el proyecto ahí detecta Vite autom
   - `/demo/crm` — Mini-CRM: contactos con búsqueda/filtros + historial, tablero de pedidos (Kanban) con botón a WhatsApp, dashboard de métricas
   - `/demo/chatbot` — ChatBot con respuestas simuladas (no conectado a un modelo de IA real)
   - `/demo/turnos` — Turnero: selección de día/horario, reserva y confirmación
-- [x] Sección "Proyectos Realizados" en la landing (CIMED Mendoza, Hidalgo Gentlemen's Club)
+- [x] Sección "Proyectos Realizados" en la landing (Clínica Aurora, Hidalgo Gentlemen's Club)
 - [x] Contacto real: email, teléfono y WhatsApp (sección "Contacto", footer y botón flotante global en `src/lib/contact.ts`)
 - [ ] Login / roles (dueño y empleados)
 - [ ] Mini-CRM real conectado a Firebase (multiempresa)

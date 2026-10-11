@@ -57,10 +57,10 @@ const services: ServiceItem[] = [
 const proyectos = [
   {
     icon: <Stethoscope className="w-6 h-6 text-cyan-400" />,
-    nombre: "CIMED Mendoza",
+    nombre: "Clínica Aurora",
     categoria: "Salud",
-    desc: "Sitio institucional para un centro médico integral (cardiología, neurología, clínica médica y anatomía patológica) en Ciudad de Mendoza.",
-    url: "https://cimed-mendoza.netlify.app/"
+    desc: "Sitio institucional para una clínica médica integral en Ciudad de Mendoza: turnos online por especialista (cardiología, neurología, diabetología y patología), laboratorio propio, obras sociales, horarios, ubicación y contacto por WhatsApp.",
+    url: "https://aurora-mendoza.netlify.app/"
   },
   {
     icon: <Scissors className="w-6 h-6 text-violet-400" />,
