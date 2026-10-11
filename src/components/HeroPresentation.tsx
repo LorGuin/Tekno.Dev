@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { CONTACT_EMAIL, CONTACT_PHONE_DISPLAY, CONTACT_PHONE_TEL, whatsappLink } from '../lib/contact';
 import ShaderBackground from './effects/ShaderBackground';
+import LiveDemos from './LiveDemos';
 
 interface ServiceItem {
   icon: React.ReactNode;
@@ -95,6 +96,12 @@ export const HeroPresentation: React.FC = () => {
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             Available for new projects
           </span>
+          <a
+            href="#demos"
+            className="hidden sm:inline-flex text-xs font-semibold uppercase tracking-wider text-slate-400 hover:text-slate-200 px-2 py-2 transition-colors"
+          >
+            Demos
+          </a>
           <a
             href="#proyectos"
             className="hidden sm:inline-flex text-xs font-semibold uppercase tracking-wider text-slate-400 hover:text-slate-200 px-2 py-2 transition-colors"
@@ -200,6 +207,9 @@ export const HeroPresentation: React.FC = () => {
           })}
         </div>
       </section>
+
+      {/* Demos en vivo: GlucoPulse AI, Vértice y Turnos+ */}
+      <LiveDemos />
 
       {/* Proyectos realizados */}
       <section id="proyectos" className="relative z-10 max-w-7xl mx-auto px-6 py-16 border-t border-slate-900">
