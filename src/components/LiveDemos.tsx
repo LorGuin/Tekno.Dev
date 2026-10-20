@@ -7,6 +7,7 @@ import {
   Smartphone,
   ShoppingBag,
   CalendarCheck,
+  Coffee,
   ExternalLink,
   LayoutDashboard,
   Play,
@@ -63,6 +64,18 @@ const otherDemos = [
     tags: ['Reserva 24/7', 'Seña online', 'Confirmación por WhatsApp', 'Multi-rubro'],
     links: [{ label: 'Probar demo', url: 'https://turneros-online.netlify.app/' }],
     tip: 'Probá cambiar de rubro: la misma plataforma cambia de colores y servicios.',
+  },
+  {
+    icon: <Coffee className="w-6 h-6 text-orange-300" />,
+    nombre: 'Cafetería',
+    categoria: 'Gastronomía',
+    desc: 'Web y sistema de gestión para cafeterías y bares. El cliente ve la carta digital, pide desde su mesa escaneando un QR o con el mozo virtual, y sigue su pedido en vivo. El local maneja mesas, comandas, cocina, cobros, stock, reservas, personal y caja diaria desde el celular.',
+    tags: ['Carta digital + QR', 'Mozo virtual', 'Mesas y comandas', 'Caja y estadísticas'],
+    links: [
+      { label: 'Ver sitio', url: 'https://cafeteria-dem.netlify.app/' },
+      { label: 'Ver sistema', url: 'https://cafeteria-dem.netlify.app/sistema' },
+    ],
+    tip: 'Tip: en el sistema entrá en modo demo como dueño, mozo o cocina. Cada rol ve su propio panel.',
   },
 ];
 
@@ -220,7 +233,7 @@ export default function LiveDemos() {
       </article>
 
       {/* Otras demos */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {otherDemos.map((d) => (
           <article
             key={d.nombre}
